@@ -1,9 +1,7 @@
 {
   "env": {
     "browser": true,
-    "es2020": true,
-    "jest": true,
-    "node": true
+    "es2020": true
   },
   "settings": {
     "react": {
@@ -11,13 +9,11 @@
     }
   },
   "extends": [
-    "next/core-web-vitals",
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
-    "plugin:@next/next/recommended"
+    "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
