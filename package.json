@@ -14,7 +14,7 @@
   "lint-staged": {
     "src/**/*": [
       "npm run lint --fix",
-      "npm run test -- --findRelatedTests --coverage --passWithNoTests --bail"
+      "npm run test -- --findRelatedTests --passWithNoTests --bail"
     ]
   },
   "dependencies": {
